@@ -1,0 +1,22 @@
+.homeparents {
+  .homeparents-card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    .cta-card {
+      border: 1px solid #000;
+      border-radius: 10px;
+      .cta-card_text {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        background-color: var(--bg-color-secondary);
+        padding: 30px;
+      }
+    }
+  }
+
+  p {
+    line-height: 32px;
+  }
+}

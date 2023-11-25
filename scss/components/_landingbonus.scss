@@ -1,0 +1,13 @@
+.landingbonus {
+  position: relative;
+  .rectangle-01 {
+    position: absolute;
+    bottom: -4%;
+    left: 0;
+    z-index: 2;
+  }
+  .rectangle-02 {
+    position: absolute;
+    bottom: -38px;
+  }
+}

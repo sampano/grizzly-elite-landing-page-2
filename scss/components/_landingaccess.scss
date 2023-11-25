@@ -1,0 +1,14 @@
+.landingaccess {
+  position: relative;
+  .rectangle-01 {
+    position: absolute;
+    bottom: -7%;
+    right: 0;
+  }
+  .rectangle-02 {
+    position: absolute;
+    bottom: -9%;
+    right: 0;
+    z-index: 2;
+  }
+}

@@ -1,0 +1,19 @@
+.landinghero {
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 95%);
+  background-image: url(../media/img/background-image-03.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 100vh;
+  position: relative;
+  .landinghero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .rectangle-02 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+}

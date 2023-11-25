@@ -1,0 +1,41 @@
+.landingsteps {
+  position: relative;
+  .schools {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .school {
+      width: 180px;
+    }
+  }
+  .steps-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    .step {
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #b21b20;
+      .content {
+        min-height: 124px;
+      }
+    }
+  }
+  .rectangle-01 {
+    position: absolute;
+    top: -5%;
+    right: 0;
+  }
+  .rectangle-02 {
+    position: absolute;
+    bottom: -13%;
+    right: 0;
+  }
+  .rectangle-03 {
+    position: absolute;
+    bottom: -16%;
+    right: 0;
+    z-index: 2;
+  }
+}
