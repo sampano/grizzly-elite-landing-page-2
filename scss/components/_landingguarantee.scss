@@ -1,10 +1,10 @@
 .landingguarantee {
-  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
+  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
   background-image: url(../media/img/background-image-02.png);
   background-repeat: no-repeat;
   background-position: left top -46px;
   .guarantee-card {
-    padding-top: 100px;
+    // padding-top: 100px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
