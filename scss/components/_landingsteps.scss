@@ -39,3 +39,35 @@
     z-index: 2;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .landingsteps {
+    .rectangle-01 {
+      display: none;
+    }
+    .rectangle-02 {
+      display: none;
+    }
+    .rectangle-03 {
+      display: none;
+    }
+    .schools {
+      flex-wrap: wrap;
+      .school {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+      }
+    }
+
+    .steps-container {
+      flex-wrap: wrap;
+      .step {
+        width: 100%;
+        .content {
+          min-height: 124px;
+        }
+      }
+    }
+  }
+}

@@ -25,3 +25,19 @@
     left: 0;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .landingexclusive {
+    .exclusive-container {
+      .exclusive-card {
+        flex-wrap: wrap;
+      }
+    }
+    .rectangle-01 {
+      display: none;
+    }
+    .rectangle-02 {
+      display: none;
+    }
+  }
+}

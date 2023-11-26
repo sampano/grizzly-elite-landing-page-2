@@ -11,3 +11,14 @@
     bottom: -38px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .landingbonus {
+    .rectangle-01 {
+      display: none;
+    }
+    .rectangle-02 {
+      display: none;
+    }
+  }
+}

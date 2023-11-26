@@ -4,16 +4,11 @@
   background-repeat: no-repeat;
   background-position: left top -46px;
   .guarantee-card {
-    // padding-top: 100px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     gap: 50px;
 
-    // margin-bottom: 200px;
-    // p {
-    //   line-height: 32px;
-    // }
     .guarantee-card_container {
       border-radius: 8px;
       border: 1px solid #fff;
@@ -45,6 +40,17 @@
         .text-icon_container {
           gap: 30px;
         }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .landingguarantee {
+    .guarantee-card {
+      flex-wrap: wrap;
+      .guarantee-card_container {
+        width: 100%;
       }
     }
   }

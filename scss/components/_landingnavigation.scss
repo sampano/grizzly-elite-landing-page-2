@@ -38,51 +38,6 @@
     }
   }
 
-  .email-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .email-form_container {
-      width: 767px;
-      display: flex;
-      justify-content: flex-start;
-      position: relative;
-    }
-    .email-input {
-      background-image: url(../media/icons/emoji-wave_icon.png);
-      background-size: 32px;
-      background-repeat: no-repeat;
-      background-position: 18px 12px;
-      border-top-left-radius: 62px;
-      border-bottom-left-radius: 62px;
-      border: none;
-      padding: 10px 60px;
-      min-width: 600px;
-      min-height: 62px;
-    }
-    .email-input::placeholder {
-      font-size: 28px;
-    }
-    button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      background-color: #b21b20;
-      border: none;
-      min-height: 62px;
-      color: #fff;
-      font-size: 28px;
-      padding-left: 20px;
-      padding-right: 40px;
-      border-top-right-radius: 62px;
-      border-bottom-right-radius: 62px;
-      cursor: pointer;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-weight: 500;
-    }
-  }
   .review {
     display: flex;
     justify-content: center;

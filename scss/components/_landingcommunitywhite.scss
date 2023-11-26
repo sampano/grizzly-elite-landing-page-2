@@ -35,3 +35,18 @@
     }
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .landingcommunity-white {
+    .content-image_container {
+      .content-image {
+        flex-wrap: wrap;
+      }
+    }
+    .content-testimonial {
+      .content-testimonial_main {
+        width: 100%;
+      }
+    }
+  }
+}

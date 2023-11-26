@@ -12,3 +12,14 @@
     z-index: 2;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .landingaccess {
+    .rectangle-01 {
+      display: none;
+    }
+    .rectangle-02 {
+      display: none;
+    }
+  }
+}
