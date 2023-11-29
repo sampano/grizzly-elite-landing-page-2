@@ -1,10 +1,11 @@
 .landinghero {
-  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 85%);
-  background-image: url(../media/img/background-image-03.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 75%);
+  // background-image: url(../media/img/background-image-03.png);
+  // background-repeat: no-repeat;
+  // background-position: right bottom;
   height: 100vh;
   position: relative;
+  background-color: #0a0a0a;
   .landinghero-container {
     display: flex;
     justify-content: space-between;

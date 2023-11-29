@@ -4,28 +4,12 @@
   min-height: 60px;
   padding: 20px 35px;
   color: #fff;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   cursor: pointer;
   font-weight: 700;
   font-size: 18px;
   background-color: var(--text-color-primary);
   border-radius: 59px;
-  text-align: center;
-  border: none;
-}
-
-.button_primary-square {
-  display: inline-block;
-  min-width: 112px;
-  min-height: 60px;
-  padding: 20px;
-  color: #fff;
-  //text-transform: uppercase;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 18px;
-  background-color: var(--text-color-primary);
-  border-radius: 5px;
   text-align: center;
   border: none;
 }

@@ -6,6 +6,30 @@
   display: inline-block;
 }
 
+.d-flex {
+  display: flex;
+}
+
+.j-content-spacebetween {
+  justify-content: space-between;
+}
+
+.j-content-center {
+  justify-content: center;
+}
+
+.j-content-f-start {
+  justify-content: flex-start;
+}
+
+.a-items-center {
+  align-items: center;
+}
+
+.a-items-f-start {
+  align-items: flex-start;
+}
+
 @media (max-width: 576px) {
   .m-display_none {
     display: none;
