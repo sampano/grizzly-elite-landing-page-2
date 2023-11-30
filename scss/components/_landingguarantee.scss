@@ -22,11 +22,6 @@
 
 @media only screen and (max-width: 480px) {
   .landingguarantee {
-    .guarantee-card {
-      flex-wrap: wrap;
-      .guarantee-card_container {
-        width: 100%;
-      }
-    }
+    clip-path: polygon(0 0, 100% 230px, 100% 100%, 0 99%);
   }
 }
